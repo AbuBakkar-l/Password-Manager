@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 2000px;
+    width: 80%;
+    margin: 0px auto;
+}
+:root{
+    --font-f:'Nunito', sans-serif;;
+}
+img{
+    cursor: pointer;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    background:#000;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2) ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+header .logo h1{
+    font-size: 25px;
+    font-family: var(--font-f);
+    font-weight: 600;
+}
+header nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header nav > ul li a{
+    font-family: var(--font-f);
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+}
+header nav > ul li a:hover{
+    color: #fff;
+}
+/* wrapper, */
+.wrapper-section{
+    padding-top: 20px ;
+    background: rgba(82, 73, 73, 0.24);
+}
+.wrapper-section h1{
+    text-transform: capitalize;
+    font-family: var(--font-f);
+    font-size: 51px;
+}
+.wrapper-section p{
+    max-width: 500px;
+    font-family: var(--font-f);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1;
+}
+table{
+    width: 80%;
+    margin-bottom: 20px;
+}
+table,  tr, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    /* padding: 10px; */
+    text-align: center;
+}
+table th{
+    text-align: center;
+    padding: 10px 6px;
+}
+table tr td{
+    padding: 17px 7px;
+}
+.tabel-btn{
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    font-family: var(--font-f);
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+.addpass{
+    width: 30%;
+    padding-top: 10px;
+}
+.addpass > h2{
+    font-size: 40px;
+    font-family: var(--font-f);
+    font-weight: 500;
+    letter-spacing: 1;
+}
+label{
+    font-family: var(--font-f);
+}
+form{
+    padding:10px  0px;
+}
+input[type="text"],
+input[type="password"]{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    margin: 10px 0px;
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-f);
+    font-size: 500;
+}
